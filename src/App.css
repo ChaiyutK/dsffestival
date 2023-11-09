@@ -8,6 +8,9 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.headsamana {
+  font-size: 1.5rem;
+}
 
 body {
   background-color: #eee;
@@ -24,6 +27,7 @@ a {
 select {
   font-family: "Kanit", sans-serif;
   font-size: 1.5rem;
+  text-align: center;
   margin-right: 10px;
 }
 
