@@ -199,7 +199,7 @@ const VaccinePage = ()=>{
     <div className="App">
         <Nav/>
       <h1>ลงทะเบียนฉีดวัคซีนฟรีฉลองครบรอบ 17 ปีโรงพยาบาลสัตว์หมอสุรศักดิ์และเพื่อน {topic}</h1>
-      <label>เลือกวันที่ต้องการดูและสาขา:</label>
+      <label className='labelBranch'>เลือกวันที่ต้องการดูและสาขา:</label>
         <select value={selects} onChange={e=>setSelects(e.target.value)} name="vaccine" id="vaccine">
           <option value="0">18 พฤศจิกายน 2566 สาขาสำนักงานใหญ่</option>
           <option value="1">19 พฤศจิกายน 2566 สาขาสำนักงานใหญ่</option>
@@ -208,7 +208,7 @@ const VaccinePage = ()=>{
           <option value="4">18 พฤศจิกายน 2566 สาขาสะเดา</option>
           <option value="5">19 พฤศจิกายน 2566 สาขาสะเดา</option>
         </select>
-      <button onClick={showList}>ค้นหา</button>
+      <button className='button-4' onClick={showList}>ค้นหา</button>
 
       <div className="divTable">
         <div className="divTableBody">
