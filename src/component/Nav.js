@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = ()=>{
     return(
         <nav>
-            <a href='/Samana'>สัมมนา</a>
-            <a href='/'>ฉีดวัคซีน</a>
+            <Link to='/Samana'>สัมมนา</Link>
+            <Link to='/'>ฉีดวัคซีน</Link>
         </nav>
     )
 }

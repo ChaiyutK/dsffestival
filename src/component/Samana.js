@@ -8,8 +8,6 @@ const Samana = ()=>{
     const [namelist2,setNamelist2] = useState([]);
     const [namelist3,setNamelist3] = useState([]);
     const [namelist4,setNamelist4] = useState([]);
-    const [namelist5,setNamelist5] = useState([]);
-    const [namelist6,setNamelist6] = useState([]);
     const [topic,setTopic] = useState("");
     const [selects,setSelects] = useState(0);
     const [showNamelist,setShowNamelist] = useState([]);
